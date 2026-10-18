@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="dist/main.js"></script>
+        <link rel="icon" type="image/png" href="/assets/favicon.png">
+
+        <!-- Framework7 icons -->
+        <link href="https://cdn.jsdelivr.net/npm/framework7-icons@5.0.5/css/framework7-icons.min.css" rel="stylesheet">
+
+        <!-- Import fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">    </head>
+    <body>
+    <header>
+    <!-- Burger menu for mobile phones -->
+    <button id="open-btn" class="burger-btn">
+        ☰ Menu
+    </button>
+
+    <div id="fullscreen-menu" class="menu-overlay">
+        <button id="close-btn" class="close-btn">
+            ✕ Close
+        </button>
+    <div class="menu-links">
+        <a class="nav-list-btn" href="#first-title">Home</a>
+        <a class="nav-list-btn" href="#education">Education</a>
+        <a class="nav-list-btn" href="#experiences">Experiences</a>
+        <a class="nav-list-btn" href="#skills">Skills</a>
+        <a class="nav-list-btn" href="#projects">Projects</a>
+        <a class="nav-list-btn" href="#contact">Contact</a>
+    </div>
+    </div>  
+
+        <nav>
+            <!-- Classic floating navbar for desktop and iPad -->
+            <ul class="nav-list">
+                <li><a class="nav-list-btn" href="#first-title">Home</a></li>
+                <li><a class="nav-list-btn" href="#education">Education</a></li>
+                <li><a class="nav-list-btn" href="#experiences">Experiences</a></li>
+                <li><a class="nav-list-btn" href="#skills">Skills</a></li>
+                <li><a class="nav-list-btn" href="#projects">Projects</a></li>
+                <li><a class="nav-list-btn" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 id="first-title" class="name-title">Iban</h1>
+        <h1 id="second-title" class="name-title">Philippe</h1>
+        <p class="hero-p">17-year-old computer science student with a passion for UI/UX design and software development.</p>
+        <a href="#education" class="explore-btn">
+            <i style="font-size: 16px" class="f7-icons">chevron_down</i>
+                Explorer
+        </a>
+    </header>
+<section>
+    <h2 id="education" class="section-title">My <span class="span-title">education</span></h2>
+    <div class="cards-container">
+        <div id="card1" class="card">
+            <div class="card-content">
+                <h3 class="card-title">Bachelor’s degree in Computer Science</h3>
+                <p class="card-date">From 2026 to 2029</p>
+                <p class="card-description">Bachelor’s degree in Computer Science at Epitech Bordeaux.</p>
+                <p class="card-skills"><strong>Skills acquired: </strong>C - Typescript</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Baccalauréat général</h3>
+                <p class="card-date">From 2023 to 2026</p>
+                <p class="card-description">General baccalaureate at Lycée Jean Monnet in Blanquefort, with specializations in English Language, Literature, and Culture (LLCE) and Digital Sciences and Computer Science (NSI).</p>
+                <p class="card-skills"><strong>Skills acquired: </strong>Python - SQL</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 id="experiences" class="section-title">My <span class="span-title">experiences</span></h2>
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Internship at Epitech Digital School</h3>
+                <p class="card-date">2 weeks in June 2024</p>
+                <p class="card-description">Internship at Epitech Digital School: exploring digital professions and the challenges within the field.</p>
+                <p class="card-skills"><strong>Skills acquired: </strong>UI/UX Design - Management - Data analysis - Python</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Internship at Instinctive</h3>
+                <p class="card-date">1 week in February 2023</p>
+                <p class="card-description">Internship at the company Instinctive in Blanquefort, in the field of computer equipment repair.</p>
+                <p class="card-skills"><strong>Skills acquired: </strong>Python - SQL</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section>
+        <h2 id="skills" class="section-title">My <span class="span-title">skills</span></h2>
+            <div id="skills-grid" class="skills-grid">
+            </div>
+        </section>  
+        <h2 id="projects" class="section-title">My <span class="span-title">projects</span></h2>
+        <section>
+    <div class="projects">
+    <div class="project-card">
+        <img class="project-image" src="assets/spotipy.png" alt="spotipy image">
+        <div class="project-body">
+            <div class="project-tags">
+                <span>Python</span>
+                <span>SQL</span>
+            </div>
+            <h2>Spotipy</h2>
+            <p>Project completed during the final year of high school (terminale) for the NSI (Digital and Computer Sciences) course. It involved creating a mini-Spotify application in Python, using an SQL database.</p>
+            <a class="project-link" href="https://github.com/Ibanphlp/SpotiPy">See the project</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img class="project-image" src="assets/portfolio.png" alt="portfolio image">
+        <div class="project-body">
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>TypeScript</span>
+                <span>UI/UX</span>
+            </div>
+            <h2>My Resume</h2>
+            <p>My portfolio, created as part of the Epitech web pool (intensive coding bootcamp). Source available code below.</p>
+            <a class="project-link" href="#">See the project</a>
+        </div>
+    </div>
+</div>
+        </section>     
+        <section>
+        <h2 id="contact" class="section-title">My <span class="span-title">contact</span></h2>            <div class="socials">
+                <div class="socials-btn">
+                    <i style="font-size: 16px" class="f7-icons">logo_github</i> 
+                    <a href="https://github.com/Ibanphlp"><p>GitHub</p></a>
+                </div>
+                <div class="socials-btn">
+                    <i style="font-size: 16px" class="f7-icons">logo_linkedin</i> 
+                    <a href="https://www.linkedin.com/in/iban-philippe-6956ba20b?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><p>LinkedIn</p></a>
+                </div>
+            </div>
+            <h3 class="or">ㅤORㅤ</h3>
+            <form id="contact-form">
+                <div class="name-email">
+                    <div class="name-email-content">
+                        <label for="name">Name</label>
+                        <input placeholder="Enter your name" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="name-email-content">
+                        <label for="email">Email</label>
+                        <input placeholder="Enter your email" type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <label for="message">Message</label>
+                <textarea placeholder="Enter your message" maxlength="1500" id="message" name="message" required></textarea>
+
+                <button type="submit"><span><i style="font-size: 16px" class="f7-icons">paperplane_fill</i> 
+                </span>Send</button>
+
+        </form>
+        </section> 
+        <footer id="year-footer">
+            <p class="footer-p">Made using HTML, CSS and TypeScript</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "b-web-100-bdx-1-1-digitalresume-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechBachelorPromo2029/B-WEB-100-BDX-1-1-digitalresume-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechBachelorPromo2029/B-WEB-100-BDX-1-1-digitalresume-6/issues"
+  },
+  "homepage": "https://github.com/EpitechBachelorPromo2029/B-WEB-100-BDX-1-1-digitalresume-6#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
