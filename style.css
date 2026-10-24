@@ -525,6 +525,7 @@ form button:hover {
     aspect-ratio: 16 / 10;
     object-fit: cover;
     display: block;
+    height: auto;
 }
 
 .project-body {
